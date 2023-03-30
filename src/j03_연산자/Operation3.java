@@ -1,0 +1,30 @@
+package j03_연산자;
+
+public class Operation3 {
+
+	public static void main(String[] args) {
+		//복합 대입 연산자
+		int result = 10;
+		System.out.println(result);
+		
+		result = result + 10;
+		System.out.println(result);
+		
+		result = result + 15;
+		System.out.println(result);
+		
+		result += 15;
+		System.out.println(result);
+		
+		result /= 5;
+		System.out.println(result);
+		
+		result %= 3;
+		System.out.println(result);
+		
+		// 삼항 연산자
+		// (100 > 1000) ? "참" : "거짓";
+		
+	}
+
+}
